@@ -32,7 +32,7 @@ body{
 section{
     width: 100%;
     background: #0fc3e2;
-    height: 45vh;
+    height: 35vh;
     display: inline-block;
     text-align: center;
     font-size: 20px;
@@ -42,7 +42,8 @@ section{
 
 .footer-left{
 float: left;
-margin: 5px;
+margin: 3px;
+font-size: 12px;
 
 }
 .footer h3{
