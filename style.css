@@ -46,12 +46,13 @@ margin: 3px;
 font-size: 12px;
 
 }
-.footer h3{
+.footer-right h3{
    color: rgb(66, 23, 61); 
+   margin: 2px
 }
 .footer-links{
     color: rgb(26, 9, 24); 
-    margin: 1 1 10px;
+    margin: 2 2 10px;
     padding: 1px;
  }
 
@@ -60,32 +61,36 @@ font-size: 12px;
     text-decoration: none;
     line-height: 1.8;
     color: inherit;
-    margin: 5px;
  }
- .footer-sticker-name{
-    color: rgb(3, 6, 39); 
-    font-size: 12px;
-    margin: 0;
-    font-weight: normal;
- }
+ 
 
  .footer-right{
     float: right;
+    margin-right: 8px;
+    align-content: left;
+    border: 5px;
     }
+.image{
+    padding: 15px;
+    margin-left: 6px;
+    flex: 10px;
+    border-radius: 30px;
+}
 
-    .footer-right .textarea{
-        padding: 10px;
-        
-        }
-
-        .img-header{
-            padding: 15px;
-            margin-left: 6px;
-            flex: 10px;
-
-
-        }
+::-webkit-input-placeholder{
+    float: left;
     
+} 
+
+   button{
+    float: left;
+   }
+
+   p{
+    text-align: left;
+   }
+
+   
 
 
     
