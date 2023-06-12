@@ -8,6 +8,25 @@
         <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
+        
+
+        <div class="container">
+        <section class="signup-form">
+            <div class="signup-form"></div>
+            <form id="signup-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required>
+        
+              <button type="submit" id="signup-btn">Sign Up</button>
+            </form>
+          </div>
+        </section>
         <script src="script.js">
   
             document.getElementById("signup-form").addEventListener("submit", function(event) {
@@ -31,6 +50,5 @@
         
         </script>
         
-        
-       </body>
+    </body>
 </html>

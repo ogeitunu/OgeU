@@ -1,6 +1,12 @@
+body{
+    background-color: #192a4b;
+    font: 12px ;
+    
+}
+
 .container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 5px;
@@ -8,7 +14,16 @@
     justify-content: center;
     align-items: center;
     flex: 38%;
+    vertical-align: right;
   }
+  div.container{
+    margin: auto;
+    position: absolute;
+    margin-left: 50%;
+    top: 50%;
+  }
+
+  
   
   h1 {
     text-align: center;
@@ -42,17 +57,18 @@
   button:hover {
     background-color: #45a049;
   }
-
   @media only screen and (min-width: 641px) {
   .container {display: flex;
     flex-direction: row;
 }
-    .section{
-      display: flex;
-    }
-    
-    
+}
+
+.section{
+    position: right;
   }
+  
+  
+
   
   
 
